@@ -6,11 +6,11 @@ import About from '../views/About.vue'
 import Main from '../views/Main.vue'
 
 const routes = [
-  { path: 'https://sandalllll.github.io/webdevBurningPileTDL2/#/login', name: 'login', component: Login },
-  { path: 'https://sandalllll.github.io/webdevBurningPileTDL2/#/logout', name: 'logout', component: Logout },
-  { path: 'https://sandalllll.github.io/webdevBurningPileTDL2/#/signin', name: 'signin', component: Signin },
-  { path: 'https://sandalllll.github.io/webdevBurningPileTDL2/#/about', name: 'about', component: About },
-  { path: 'https://sandalllll.github.io/webdevBurningPileTDL2/#/', name: 'main', component: Main }
+  { path: '/login', name: 'login', component: Login },
+  { path: '/logout', name: 'logout', component: Logout },
+  { path: '/signin', name: 'signin', component: Signin },
+  { path: '/about', name: 'about', component: About },
+  { path: '/', name: 'main', component: Main }
 ]
 
 export const router = createRouter({
