@@ -5,7 +5,7 @@ import { useUserStore } from './../stores/useUserStore'
 const userStore = useUserStore()
 if (userStore.ud.current == "")
 {
-	window.location.href += "login";
+	//window.location.href += "login";
 }
 </script>
 
