@@ -14,6 +14,6 @@ const routes = [
 ]
 
 export const router = createRouter({
-  history: createWebHistory('/webdevBurningPileTDL2/'),
+  history: createWebHashHistory(),
   routes
 })
